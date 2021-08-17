@@ -1,29 +1,16 @@
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
-import {Link} from 'react-router-dom'
-import './Navbar.css';
+import React from 'react'
+import './navbar.css'
 
-
-const  NavBar = (props) => {
-
-
+export default function NavBar() {
     return (
         <nav>
-           <ul>
-               
-               <Link to ='/home'>
-                   <li>Log Out</li>
-               </Link>
-               <Link to ='/profile'>
-                   <li>Profile</li>
-               </Link>
-               <Link to ='/register'>
-                   <li>Closet</li>
-               </Link>
-
-           </ul>
+            <h3> Logo </h3>
+            <ul className="navlinks">
+                <li>Log Out</li>
+                <li>Closet</li>
+                <li>Profile</li>
+            </ul>
         </nav>
+            
     );
 }
-
-export default NavBar;
