@@ -1,13 +1,14 @@
 import React from 'react'
 import './navbar.css'
 import { Link } from 'react-router-dom'
+import logo from './logo.png'
 
 export default function NavBar() {
     return (
         <nav>
-            <h3> Logo </h3>
+            <img className="nav-logo"src={logo} alt="nav-logo" width="100" height="100" border-radius="50%"></img>
             <ul className="navlinks">
-            <Link to='/home'>
+            <Link to='/'>
             <li>Log Out</li>
             </Link>
             <Link to='closet'>

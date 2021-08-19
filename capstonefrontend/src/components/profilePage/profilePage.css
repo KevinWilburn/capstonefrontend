@@ -1,0 +1,20 @@
+.profile-image {
+    border-radius: 50%;
+    margin-top: .5cm;
+
+}
+.form{
+    text-align: center;
+}
+
+
+
+.my-bio-container{
+    background-color: rgb(249, 251, 252);
+    border: solid black 2px;
+    width: 1000px;
+    height: 300px;
+    position: center;
+    bottom: 500px;
+    left: 500px;
+}
