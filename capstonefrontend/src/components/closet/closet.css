@@ -1,0 +1,15 @@
+.clothing-item-title{
+    text-align: center;
+}
+
+.clothing-picture {
+    margin-right: .75rem;
+    border-radius: 50%;
+    background-color: #aaa;
+    position:relative;
+    left: 22.5%;
+}
+.horizontal-line{
+    margin-left: 5%;
+    margin-right: 5%;
+}

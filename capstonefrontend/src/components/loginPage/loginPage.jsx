@@ -18,7 +18,7 @@ export default function LoginPage() {
 
 function myFunction() {
     return(
-        <form action="/profilePage" onSubmit="alert('This Works')">
+        <form action="/home" onSubmit="alert('This Works')">
             <label>Username:</label><br/>
             <input type="text" name=""/>
             <br/>

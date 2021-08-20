@@ -8,15 +8,19 @@ export default function NavBar() {
         <nav>
             <img className="nav-logo"src={logo} alt="nav-logo" width="100" height="100" border-radius="50%"></img>
             <ul className="navlinks">
-            <Link to='/'>
-            <li>Log Out</li>
-            </Link>
+            
+            <Link to='home'>
+            <li>Home</li>
+            </Link> 
             <Link to='closet'>
             <li>Closet</li>
             </Link> 
             <Link to='profilepage'>
             <li>Profile</li>
             </Link> 
+            <Link to='/'>
+            <li>Log Out</li>
+            </Link>
                 
                
             </ul>
