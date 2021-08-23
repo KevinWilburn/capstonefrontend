@@ -1,20 +1,20 @@
 import React from 'react'
+import './weatherapi.css'
 
 
 export default function Weather (){
-    return (
-       <>
-            <div className="searchContainer">
-                <div className="search">
-                    <h1>Where are you located?</h1>
-                    <input type = "text" id="" className="searchlocation" placeholder="Type in your location"/>
-                    <button className="button">Submit</button>
-                </div>
-                <div id="data"></div>
 
-            </div>
-       </>
-            
+    // const apiKey = '23772045840c74c98686f483cb98be2d'
+    // const {data, setData} = useState([{}])
+
+
+
+    return (
+        <div className="container">
+            <input className="inputbox" placeholder="What is the nearest city?"/>
+
+        </div>
+      
     )
 
 }

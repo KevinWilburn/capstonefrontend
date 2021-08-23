@@ -1,18 +1,19 @@
-// Class Fetch {
-//     async getCurrent(input) {
-//       const apiKey = "39a9a737b07b4b703e3d1cd1e231eedc";
-  
-//       //make request to url
-  
-//       const response = await fetch(
-//         `https://api.openweathermap.org/data/2.5/weather?q=${input}&appid=${apiKey}`
-//       );
-  
-//       const data = await response.json();
-  
-//       console.log(data);
-  
-//       return data;
-//     }
-//   }
-  
+// import React, { useState} from 'react'
+// import './weatherAPI.css'
+
+
+
+// function weatherApi(){
+
+//     const apiKey = '23772045840c74c98686f483cb98be2d'
+//     const {data, setData} = useState([{}])
+
+//     return (
+//         <div className="container">
+//             <input className="inputbox" placeholder="What is the nearest city?"/>
+
+//         </div>
+//     )
+// }
+
+// module.exports = weatherApi;
