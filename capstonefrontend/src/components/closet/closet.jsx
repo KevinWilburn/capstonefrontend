@@ -13,6 +13,7 @@ import rainboots from './rainboots.jpg'
 import reebok from './reebok.jpg'
 import './closet.css'
 import logo from './avatar.png'
+import SearchBar from '../searchBar/searchBar'
 
 
 
@@ -23,6 +24,9 @@ export default function Closet() {
     return (
         <>
         <div className="profile">
+                <div>
+                {SearchBar()}
+                </div>
                 <img className="profile-image" src={logo} alt="profile-pic" width="300" height="300" border-radius="50%"></img>
                 <input type="file" placeholder="Upload Picture"/>
                 
@@ -73,6 +77,9 @@ export default function Closet() {
                 <input className="umbrella-input" type="text" placeholder="item name"/>
                 <img className="clothing-picture" alt="" src={berks}/>
                 <input className="umbrella-input" type="text" placeholder="item name"/>
+                
+        </div>
+        <div>
                 
         </div>
         </>

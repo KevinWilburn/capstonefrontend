@@ -46,20 +46,10 @@ export default function Weather (){
     }
 
     let randomOutFit = reRandomizing(myHats, myShirts, myPants, myShoes)
-    alert('Your random outfit should be' + randomOutFit);
-        
-        
-        
+    
+    alert('Your random outfit should be' + randomOutFit)    
     }
     
-
-   
-
-
-
-
-
-
     return (
         <>
         <div className="container">
@@ -83,8 +73,12 @@ export default function Weather (){
                 </div>
             )}
         </div>
+
         <div className="random-outfit">
-          <input className="radnom outfit" type="button" placeholder="gernerate random outfit" onClick={getRandomOutfit}/>
+            <h1>
+            <input className="radnom outfit" type="button" value="click me for random outfit" onClick={getRandomOutfit}/>
+            </h1>
+          
         </div>
         </>
       
