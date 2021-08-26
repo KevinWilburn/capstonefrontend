@@ -6,7 +6,7 @@ export default function LoginPage() {
         <>
         <div>
             <h1>
-                Welcome to What-To Wear!  
+                Welcome to What To Wear!  
                 
             </h1>
             {myFunction()} 

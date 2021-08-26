@@ -1,10 +1,15 @@
 .clothing-item-title{
     text-align: center;
 }
+.profile-image {
+    border-radius: 50%;
+    margin-top: .5cm;
+
+}
 
 .clothing-picture {
     margin-right: .75rem;
-    border-radius: 50%;
+    border-radius: 30%;
     background-color: #aaa;
     position:relative;
     left: 22.5%;
@@ -12,4 +17,22 @@
 .horizontal-line{
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.umbrella-input{
+    margin-top: 2cm;
+}
+.umbrella-ok-button{
+    margin-top: 2cm;
+}
+
+.create-about-me{
+    background-color: #fcf8f1;
+    border: solid rgb(70, 69, 69) 2px;
+    width: 500px;
+    height: 250px;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+    vertical-align: center;
 }

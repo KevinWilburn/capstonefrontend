@@ -15,9 +15,9 @@ export default function NavBar() {
             <Link to='closet'>
             <li>Closet</li>
             </Link> 
-            <Link to='profilepage'>
+            {/* <Link to='profilepage'>
             <li>Profile</li>
-            </Link> 
+            </Link>  */}
             <Link to='/'>
             <li>Log Out</li>
             </Link>
