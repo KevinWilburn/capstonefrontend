@@ -5,7 +5,7 @@ export default function SearchBar() {
     const [searchItem, setSearchItem] = useState('')
     return (
         <div>
-            <input className="search-bar" type="text" placeholder="Search..." onChange={event => {setSearchItem(event.target.value)}}/>
+            <input className="search-bar" type="text" placeholder="Search for an item..." onChange={event => {setSearchItem(event.target.value)}}/>
             {Data.filter((value) => {
             if(searchItem === ""){
                 return ("")

@@ -14,6 +14,8 @@ import reebok from './reebok.jpg'
 import './closet.css'
 import logo from './avatar.png'
 import SearchBar from '../searchBar/searchBar'
+import dropdown from '../dropdownlist/dropdown'
+
 
 
 
@@ -27,8 +29,14 @@ export default function Closet() {
                 <div>
                 {SearchBar()}
                 </div>
-                <img className="profile-image" src={logo} alt="profile-pic" width="300" height="300" border-radius="50%"></img>
+                <div>
+                {dropdown()}
+                </div>
+
+      
+            <img className="profile-image" src={logo} alt="profile-pic" width="300" height="300" border-radius="50%"></img>
                 <input type="file" placeholder="Upload Picture"/>
+                
                 
                 
                 <textarea className="create-about-me"/>
